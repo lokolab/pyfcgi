@@ -68,7 +68,7 @@ website’s document root and add the following lines:
 
     pyfcgi_init = PyfcgiServer(app).run()
 
-Fifth, execute commands via shell*:
+Fifth, execute the commands via shell*:
 
     chmod 744 /path/to/wrapper/python3.fcgi
     chown someuser:someuser /path/to/wrapper/python3.fcgi
